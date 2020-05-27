@@ -13,7 +13,7 @@ for(int i = 0 ; i < numbers.length ; i++){
 Here, we're specifying how to iterate the loop, and how to add the values to the sum. Here, i and sum variables are being mutated repeatedly. Its called external iteration.
 
 ## Internal Iteration
-We just specify just what to do but not how to do. 
+We just specify **what** to do but not **how** to do. 
 ```
 IntStream.of(numbers).sum();
 ```
